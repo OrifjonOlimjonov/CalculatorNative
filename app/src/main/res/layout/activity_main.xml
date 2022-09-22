@@ -6,14 +6,111 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="wrap_content"
+    <GridLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:text="1"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </GridLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
