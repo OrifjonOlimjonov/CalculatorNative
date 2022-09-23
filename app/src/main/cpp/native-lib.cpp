@@ -4,7 +4,7 @@
 using namespace std;
 
 extern "C" JNIEXPORT jdouble JNICALL
-Java_uz_orifjon_calculatornative_MainActivity_plus(
+Java_uz_orifjon_calculatornative_fragments_MainFragment_plus(
         JNIEnv *env,
         jobject /* this */,double a,double b) {
         double result = a;
@@ -13,7 +13,7 @@ Java_uz_orifjon_calculatornative_MainActivity_plus(
 }
 
 extern "C" JNIEXPORT jdouble JNICALL
-Java_uz_orifjon_calculatornative_MainActivity_minus(
+Java_uz_orifjon_calculatornative_fragments_MainFragment_minus(
         JNIEnv *env,
         jobject /* this */,double a,double b) {
         double result = a;
@@ -22,7 +22,7 @@ Java_uz_orifjon_calculatornative_MainActivity_minus(
 }
 
 extern "C" JNIEXPORT jdouble JNICALL
-Java_uz_orifjon_calculatornative_MainActivity_multiply(
+Java_uz_orifjon_calculatornative_fragments_MainFragment_multiply(
         JNIEnv *env,
         jobject /* this */,double a,double b) {
         double result = a;
@@ -31,7 +31,7 @@ Java_uz_orifjon_calculatornative_MainActivity_multiply(
 }
 
 extern "C" JNIEXPORT jdouble JNICALL
-Java_uz_orifjon_calculatornative_MainActivity_divide(
+Java_uz_orifjon_calculatornative_fragments_MainFragment_divide(
         JNIEnv *env,
         jobject /* this */,double a,double b) {
         double result = a;

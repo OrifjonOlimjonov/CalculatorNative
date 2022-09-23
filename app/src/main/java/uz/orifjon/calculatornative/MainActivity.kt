@@ -15,18 +15,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.sampleText.text = plus(12.0,12.0).toString() + minus(31.0,31.0).toString()
+    //    binding.sampleText.text = plus(12.0,12.0).toString() + minus(31.0,31.0).toString()
+
+
+
+
+
     }
 
 
-    external fun plus(a:Double,b:Double): Double
-    external fun minus(a:Double,b:Double): Double
-    external fun multiply(a:Double,b:Double): Double
-    external fun divide(a:Double,b:Double): Double
 
-    companion object {
-        init {
-            System.loadLibrary("calculatornative")
-        }
-    }
 }
